@@ -1,0 +1,9 @@
+name: 长城炼金术
+desc: 长城炼金术去广告
+
+http:
+  url-rewrite:
+    - ^https:\/\/fintechappdr\.cgws\.com\/api\/business-operation\/app\/a\/flash\/window\/get\?type=2 - reject-dict
+
+  mitm:
+    - "fintechappdr.cgws.com"
